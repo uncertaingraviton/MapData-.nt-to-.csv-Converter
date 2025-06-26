@@ -5,20 +5,27 @@ GO THROUGH ALL THE STEPS TO AVOID ERRORS
 
 # Prerequisite steps-(for coding noobs)
 1. Download this folder as zip.
+
 2. unzip
+
 3. drag and drop your .nt file (which has your raw map data) into this folder
+
 4. Open this folder in your preferred IDE (like, VScode)
+
 5. Run- 
 ```bash
 pip install pandas rdflib python 
 ```
 in the terminal. Ideally this terminal should be opened in the same folder (meaning, navigate to the downloaded and unzipped folder in your terminal and then run this command. If youre using VScode, this is done automatically so you dont have to worry) {these are packages that the python codefiles use to process the converting and what not and is absolutely essential}.
+
 6. Make sure when youre following the steps, you type in the correct input files into the pyhton code files.
+
 7. To run a python codefile, simply type in,
 ```bash
 python NAMEOFTHEFILE.py
 ```
 into the terminal and this runs the specific python file and gives the output file you desire into the same folder. (if you get any errors related to python/pandas/rdflib, make sure you've done step 5 properly. You can repeat it if you want).
+
 8. Make sure the names of the files wherever you are typing them in, like in the terminal for the .py files or your input/output files in the codefiles are matching correctly or else it will lead to errors. To be safe, you can copy paste them, this will rule out any possibilities for errors.
 
 
